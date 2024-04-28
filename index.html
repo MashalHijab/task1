@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design Your House</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./bdimage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  /* background-color: #f1f1f1; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav-links li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color:white;
+}
+
+.nav-links li a:hover {
+  /* background-color: #ddd; */
+}
+
+.banner {
+  height: 500px;
+  background-image: url(""); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+}
+
+.banner-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  /* background-color: #f1f1f1; */
+}
+
+.subscribe p {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  /* background-color: #ddd; */
+  color: white;
+}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="logo">Interior</div>
+  <nav>
+    <ul class="nav-links" >
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">BEDROOM</a></li>
+      <li><a href="#">DINING</a></li>
+      <li><a href="#">KITCHEN</a></li>
+      <li><a href="#">BACKYARD</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="banner">
+  <div class="banner-text">
+    <h1>DESIGN YOUR HOUSE</h1>
+    <p>Subscribe Easy Tutorials YouTube Channel to watch more videos, press the bell icon to get latest updates.</p>
+  </div>
+</div>
+<section class="subscribe">
+  <button style="background-color: aqua;  border-radius: 50px;">WATCH MORE</button>
+  <button style="border-radius: 50px; margin-left: 20px; border-color: aqua;" >SUBSCRIBE</button>
+</section>
+</body>
+</html>
